@@ -74,8 +74,13 @@ int main() {
     // Free the memory allocated for the ArrayList
     arraylist_free(list);
 
+
     return 0;
 }
 ```
 
 ## Compile and run the program
+To compile and run the program, copy and paste the following in the terminal:
+```bash
+gcc -o arraylist_example arraylist.c arraylist.h
+./arraylist_example
